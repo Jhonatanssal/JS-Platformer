@@ -15,7 +15,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://gracious-wozniak-48c37e.netlify.app/)
+[Live Demo Link](https://ecstatic-heyrovsky-7234ea.netlify.app/)
 
 > Note: Open it using Google Chrome browser.
 
