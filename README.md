@@ -1,65 +1,97 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# JavaScript Platformer Game
 
-# Project Name
-
-> One paragraph statement about the project.
-
-![screenshot](./app_screenshot.png)
-
-Additional description about the project and its features.
+> This is a platformer game built with Phaser, JavaScript, Webpack, and Jest technologies.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- JavaScript
+- Phaser
+- Nodejs
+- Jest
+- Webpack
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://ecstatic-heyrovsky-7234ea.netlify.app/)
 
+> Note: Open it using Google Chrome browser.
+
+## How to play
+
+To play the game you only need a keyboard and Google Chrome browser.
+
+- Move to right using ➡️ arrow
+- Move to left using ⬅️ arrow
+- Jump using ⬆️ arrow
+
+The objective of the game is to collect the stars, every time you collect 16 stars, a bomb enters the game, you have to continue collecting stars avoiding the bombs that will be appearing every 16 bombs collected, if a bomb touches you, GameOver.
+
+## Game Design
+
+The design of the game has been taken from Phase Documentation page, all of the assets and images were provided from Phaser:
+
+### Player Spritesheet <br>
+![Player](./src/assets/dude.png)
+
+### Star <br>
+![Star](./src/assets/star.png)
+
+### Bomb <br>
+![Bomb](./src/assets/bomb.png)
+
+### Title Screen
+
+![Title](./img/Title.png)
+
+### Game Screen
+
+![Game](./img/Game.png)
+
+### Instructions Screen
+![Instructions](./img/Instructions.png)
+
+### Game Over Screen
+![GameOver](./img/GameOver.png)
+
+### LeaderBoard Screen
+![LeaderBoard](./img/LeaderBoard.png)
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+To get a local copy up and running follow these simple example steps:
 
-
-To get a local copy up and running follow these simple example steps.
+- Run the command `git clone https://github.com/jssarrazolaa/JS-Game.git`
+- Go to the root folder in the terminal and run `npm install`
+- Then you can add or delete characteristics of the game and test them in your local machine starting a local server running `npm run start`
 
 ### Prerequisites
 
-### Setup
-
-### Install
-
-### Usage
+- Nodejs
+- Phaser
+- Webpack
+- Google Chrome
 
 ### Run tests
 
+To run code test, use the command `npm test` in the root folder.
+
 ### Deployment
 
-
+The deployment has been made in Netlify
 
 ## Authors
 
-👤 **Author1**
+👤 **Jhonatan Sarrazola**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@jssarrazolaa](https://github.com/jssarrazolaa)
+- Twitter: [@StevenAlvarez_](https://twitter.com/StevenAlvarez_)
+- LinkedIn: [Jhonatan Sarrazola](https://www.linkedin.com/in/jhonatansarrazola/)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/jssarrazolaa/JS-Game/issues).
 
 ## Show your support
 
@@ -67,9 +99,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Phaser
+- Microverse
+- [Mupa M'mbetsa Nzaphila](https://github.com/Mupa1)
 
 ## 📝 License
 
