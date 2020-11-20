@@ -2,9 +2,6 @@
 
 > This is a platformer game built with Phaser, JavaScript, Webpack, and Jest technologies.
 
-![Title](./img/Title.png)
-![Game](./img/Game.png)
-
 ## Built With
 
 - JavaScript
@@ -19,15 +16,45 @@
 
 > Note: Open it using Google Chrome browser.
 
-### Usage
+## How to play
 
 To play the game you only need a keyboard and Google Chrome browser.
 
-- Move to right using -> arrow
-- Move to left using <- arrow
-- Jump using up arrow
+- Move to right using ➡️ arrow
+- Move to left using ⬅️ arrow
+- Jump using ⬆️ arrow
 
-The objective of the game is to collect the stars, each time you collect 16 stars, a bomb enters the game, you have to continue collecting stars avoiding the bombs that will be appearing every 16 bombs collected.
+The objective of the game is to collect the stars, every time you collect 16 stars, a bomb enters the game, you have to continue collecting stars avoiding the bombs that will be appearing every 16 bombs collected, if a bomb touches you, GameOver.
+
+## Game Design
+
+The design of the game has been taken from Phase Documentation page, all of the assets and images were provided from Phaser:
+
+### Player Spritesheet <br>
+![Player](./src/assets/dude.png)
+
+### Star <br>
+![Star](./src/assets/star.png)
+
+### Bomb <br>
+![Bomb](./src/assets/bomb.png)
+
+### Title Screen
+
+![Title](./img/Title.png)
+
+### Game Screen
+
+![Game](./img/Game.png)
+
+### Instructions Screen
+![Instructions](./img/Instructions.png)
+
+### Game Over Screen
+![GameOver](./img/GameOver.png)
+
+### LeaderBoard Screen
+![LeaderBoard](./img/LeaderBoard.png)
 
 ## Getting Started
 
